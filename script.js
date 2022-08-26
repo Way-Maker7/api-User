@@ -18,7 +18,8 @@ const userDisplay = async () => {
 
   <img src=${user.picture.large} alt="picture of ${user.name.first}"/>
   <h3>${user.name.first}</h3>
-  
+  <p>${user.location.city} , ${user.dob.age} years</p>
+  <em>member since: ${user.registered.date}</em>
   </div>
 
     

@@ -6,11 +6,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin: 90%;
+  width: 90%;
 }
 
 .card {
   background: #fff2e1;
+  flex: 1 0 25%;
   margin: 10px;
   text-align: center;
   padding: 20px;
@@ -19,6 +20,9 @@ body {
   min-height: 250px;
   display: grid;
   overflow: hidden;
+  padding: 20px 20px 0;
+  box-shadow: 0 1px 7px;
+  position: relative;
 }
 
 img {
@@ -34,4 +38,9 @@ h3 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.3rem;
+}
+
+p,
+em {
+  font-size: 1rem;
 }
